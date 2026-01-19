@@ -1,1 +1,0 @@
-// Cordova loader for Monaca
