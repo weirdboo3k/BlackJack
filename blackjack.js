@@ -6,9 +6,11 @@ var losses = 0;
 var draws = 0;
 const bgm = new Audio("sound/bgm.mp3");
 bgm.loop = true;
-bgm.volume = 0.5;
+
+document.addEventListener("click", () => {
+  bgm.play();
+}, { once: true });
 window.startGame = function() {
-    bgm.play();
     playerCards = [];
     dealerCards = [];
     createDeck();
