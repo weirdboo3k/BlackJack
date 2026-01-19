@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ブラックジャック</title>
+    <link rel="stylesheet" href="blackjack.css">
+</head>
+<body>
+    <h1>ブラックジャック</h1>
+    <p>作: Khoa</p>
+
+    <div>
+        <h2>ディーラー</h2>
+        <p>スコア: <span id="dealer-score">0</span></p>
+        <div id="dealer-cards"></div>
+    </div>
+
+    <div>
+        <h2>プレイヤー</h2>
+        <p>スコア: <span id="player-score">0</span></p>
+        <div id="player-cards"></div>
+    </div>
+
+    <div id="message">ゲームを開始してください</div>
+
+    <button onclick="startGame()">ゲーム開始</button>
+    <button onclick="hit()" id="hit-btn" disabled>ヒット</button>
+    <button onclick="stand()" id="stand-btn" disabled>スタンド</button>
+    <button onclick="newGame()" id="new-btn" disabled>新しいゲーム</button>
+
+    <p>勝ち: <span id="wins">0</span> 負け: <span id="losses">0</span> 引き分け: <span id="draws">0</span></p>
+
+    <script src="blackjack.js"></script>
+</body>
+</html>
