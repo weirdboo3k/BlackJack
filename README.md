@@ -27,9 +27,3 @@ The game calculates scores and determines win, lose, or draw.
 ### 2. Access the game / ゲームにアクセス
 ```text
 https://weirdboo3k.github.io/BlackJack/
-
-
-##Future Improvements / 今後の改善点
-Improve UI/UX design
-Add betting system
-Add animations and sound effects
